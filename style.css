@@ -1,0 +1,95 @@
+/* Reset e Estilos Globais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f9ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1a3a8f;
+}
+
+.cabecalho h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+/* Formulário */
+.formulario-cep {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 72, 179, 0.1);
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+.campo label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #1a3a8f;
+}
+
+.campo input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1e0ff;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.campo input:focus {
+  border-color: #1a73e8;
+  outline: none;
+}
+
+.campo input:disabled {
+  background-color: #f0f5ff;
+}
+
+/* Botão */
+.botao-buscar {
+  background-color: #1a3a8f;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.botao-buscar:hover {
+  background-color: #0d2a6e;
+}
+
+/* Rodapé */
+.rodape {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+  font-size: 0.9rem;
+}
